@@ -1,0 +1,109 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background: #4a0101;
+    color: white;
+}
+
+#btn2 {
+    border: none;
+    padding: 2px 1em;
+    background: none;
+    transition: 0.5s;
+}
+
+#btn2:hover{
+    cursor: pointer;
+    transform: scale(1.3,1.3);   
+    transition: 0.5s;
+}
+
+#btn2 img{
+    width: 30px;
+}
+
+#txtInput {
+    border: none;
+    border-radius: 40px;
+    background: rgba(0,0,0,0.5);
+    outline: none;
+    padding: 1em 1em;
+    color: white;
+    font-size: 16px;
+}
+
+#txtInput:hover {
+    border: none;
+}
+
+
+#sect1 {
+    width: 70%;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.3);
+    /*border: 1px solid green;*/
+    padding: 1em;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    justify-content: center;
+}
+
+#sect2 {
+    width: 70%;
+    margin: 1em auto;
+   /* border: 1px solid red;*/
+    background: rgba(0,0,0,0.3);
+    padding: 1em;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#sect3 {
+    width: 40%;
+    /*  border: 1px solid pink;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    visibility: hidden;
+}
+
+#sect4 {
+    width: 50%;
+    /* margin: 0 auto;*/
+    background: rgba(0,0,0,0.3);
+    /*  border: 1px solid violet;*/
+    border-radius: 8px;
+    transition: 0.5s;
+    visibility: hidden;
+}
+
+
+
+.divForText{
+    margin: 1em;
+}
+
+#imgPoster{
+    width: 100%;
+    background-position: center center;
+}
+
+#sect3:hover {
+    transform: scale(1.01,1.01);
+    box-shadow: 0 0 50px #000000;
+    transition: 0.5s;
+}
+#sect4:hover {
+    transform: scale(1.01,1.01);
+    box-shadow: 0 0 50px #000000;
+    transition: 0.5s;
+}
